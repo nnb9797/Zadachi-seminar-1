@@ -46,18 +46,23 @@ namespace Задачи_к_семинару_1
 
                 Console.WriteLine("Введите целое число А: ");
                 int arg1 = Convert.ToInt32(Console.ReadLine());
+                
                 Console.WriteLine("Введите целое число Б: ");
                 int arg2 = Convert.ToInt32(Console.ReadLine());
+                
                 Console.WriteLine("Введите целое число В: ");
                 int arg3 = Convert.ToInt32(Console.ReadLine());
+                
                 int max = Math.Max(arg1, Math.Max(arg2, arg3));
                 Console.WriteLine("Максимальное число это:" + Convert.ToString(max));
+                
                 Console.Write("Для продолжения нажмите " + "любую клавишу >");
                 Console.ReadKey();
             }
            void Zadacha6()
             {
                 //Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+               
                 int a;
                 Console.WriteLine("Введите число:");
                 a = Convert.ToInt32(Console.ReadLine());
@@ -73,6 +78,8 @@ namespace Задачи_к_семинару_1
             }
             void Zadacha8()
             {
+                //Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+                
                 Console.WriteLine("Введите цело число: ");
                 string a = Console.ReadLine();
                 if (int.TryParse(a, out var n))
