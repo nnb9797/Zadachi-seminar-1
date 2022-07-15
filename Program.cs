@@ -80,7 +80,7 @@ namespace Задачи_к_семинару_1
             {
                 //Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
                 
-                Console.WriteLine("Введите цело число: ");
+                Console.WriteLine("Введите целое число: ");
                 string a = Console.ReadLine();
                 if (int.TryParse(a, out var n))
                 {
